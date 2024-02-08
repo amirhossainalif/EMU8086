@@ -47,7 +47,7 @@ main proc
     mov B,AL 
     
     mov bh,A
-    xchg bh,B
+    xchg bh,B    ;Xchange user input1 and input2
     mov A,bh 
                
     mov ah,9     ; for new line 
